@@ -4,5 +4,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding-inline: 1rem;
-    gap: 10px;
+	gap: 10px;
 }
+
+/* Card */
