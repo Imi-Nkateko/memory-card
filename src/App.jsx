@@ -6,7 +6,17 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<Card cardData={{url: "imgage location", title: "Anime"}}/>
+			<div className="cards-display">
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+				<Card cardData={{ url: "imgage location", title: "Anime" }} />
+			</div>
 		</>
 	);
 };

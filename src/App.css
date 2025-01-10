@@ -1,2 +1,12 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-
+.cards-display {
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 1rem;
+}
