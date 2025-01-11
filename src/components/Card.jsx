@@ -1,16 +1,12 @@
 import "./Style.css";
 
-const Card = ({ cardData }) => {
-	function handleClick() {
-		alert("score + 1");
-	}
-
+const Card = ({title}) => {
 	return (
-		<div className="card" onClick={handleClick}>
+		<div className="card" >
 			<div className="card-image">
-				<img src={cardData.url} alt="Card Image" />
+				<img  alt="Card Image" />
 			</div>
-			<h2>{cardData.title}</h2>
+			<h2>{title}</h2>
 		</div>
 	);
 };

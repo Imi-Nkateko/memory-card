@@ -1,6 +1,6 @@
 import "./Style.css"
 
-const Header = () => {
+const Header = ({score}) => {
   return (
     
     <header>
@@ -8,8 +8,8 @@ const Header = () => {
             Logo
         </div>
         <div className="score-board">
-            <h1>Score: 0</h1>
-            <h3>High Score</h3>
+            <h1>Score: {score}</h1>
+            <h3>High Score: 11</h3>
         </div>
     </header>
   )
