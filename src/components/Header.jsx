@@ -1,18 +1,22 @@
-import "./Style.css"
+import "./Style.css";
+import logo from "./assets/courage-the-cowardly-dog.svg";
 
-const Header = ({score}) => {
-  return (
-    
-    <header>
-        <div className="logo">
-            Logo
-        </div>
-        <div className="score-board">
-            <h1>Score: {score}</h1>
-            <h3>High Score: 11</h3>
-        </div>
-    </header>
-  )
-}
+const Header = ({ points }) => {
 
-export default Header
+
+
+
+	
+	return (
+		<header>
+			<div className="logo">
+				<img src={logo} />
+			</div>
+			<div className="score-board">
+				<h1 className="score">Score: {points}</h1>
+			</div>
+		</header>
+	);
+};
+
+export default Header;

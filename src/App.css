@@ -4,9 +4,6 @@
 	padding: 0;
 }
 
-.cards-display {
-	padding: 2rem;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	gap: 1rem;
+body {
+		background-color:#E66C2C;
 }
