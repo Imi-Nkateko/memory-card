@@ -7,3 +7,10 @@
 body {
 		background-color:#E66C2C;
 }
+
+p {
+	color: rgba(0, 0, 0, 0.753);
+	font-weight: 900;
+	font-size: larger;
+	text-align: center;
+}

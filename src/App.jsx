@@ -12,6 +12,10 @@ const [points, setPoints] = useState(0)
 	return (
 		<>
 			<Header points={points} />
+			<p>
+				Get points by clicking on an image but don't click on any more than
+				once!
+			</p>
 			<Cards points={points} setPoints={setPoints} />
 		</>
 	);

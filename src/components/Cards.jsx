@@ -38,11 +38,11 @@ const Cards = ({ points, setPoints }) => {
 
 	return (
 		<div className="cards-display">
+			
 			{gifs.map((gif, index) => (
 				<Card
 					setCharacters={setGifs}
 					key={gif.id || index}
-				
 					link={gif.images.fixed_height.url || "default-image-url.jpg"}
 					name={gif.id}
 					points={points}
