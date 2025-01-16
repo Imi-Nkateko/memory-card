@@ -2,7 +2,7 @@
 
 This is a project assignment from [The Odin Project](https://www.theodinproject.com). The aim of the project is to understand the basics of React UseEffect.
 
-### [Live demo] (https://memory-game-five-wine.vercel.app)
+### [Live demo](https://memory-game-five-wine.vercel.app)
 
 ## Project Description
 
